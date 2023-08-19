@@ -1,0 +1,36 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40vw;
+    align-items: center;
+}
+.name{
+    font-size: 6vw;
+}
+
+.heading{
+    color: blue;
+
+}
+
+p{
+    color: gray;
+}
+
+
+@media only screen and (max-width:768px){
+    .name{
+        font-size: 8vw;
+    }
+    .experience{
+        font-size: 10px;
+        
+    }
+}
