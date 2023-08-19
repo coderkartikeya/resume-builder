@@ -4,17 +4,18 @@ import './index.css';
 import App from './App';
 import { Context } from './context/education';
 import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
+  <HashRouter>
   <Context>
   <App />
 
   </Context>
-  </BrowserRouter>
+  </HashRouter>
     
   </React.StrictMode>
 );
