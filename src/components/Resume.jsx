@@ -155,7 +155,7 @@ const Resume=()=>{
             
             
         </div>
-        <Button variant="outlined" onClick={downloadPdf} >Outlined</Button>
+        <Button variant="outlined" onClick={downloadPdf} >Download</Button>
         
         </>
     )
