@@ -68,7 +68,7 @@ const Resume=()=>{
             }} >
             <div className="first">
             
-            {actual_in?(<h1 className="name">{actual_in.name}</h1>):(<h1></h1>)}
+            {actual_in?(<h1 className="name">{actual_in[0].name}</h1>):(<h1></h1>)}
             
             {/*{actual.info[0].name}*/}
             <div className="experience">
@@ -115,7 +115,7 @@ const Resume=()=>{
             </div>
             <div className="second">
             <div>
-            {actual_in?(<><p>{actual_in.mobile}</p><p>{actual_in.email_id}</p></>):(<></>)}
+            {actual_in?(<><p>{actual_in[0].mobile}</p><p>{actual_in[0].email_id}</p></>):(<></>)}
             
             </div>
 

@@ -70,17 +70,10 @@ const Main=()=>{
             <h2>Enter mobile no</h2>
             <TextField id="filled-basic" label="mobile no." variant="filled" name="mobile" onChange={getVal}/>
             <Button variant="contained" onClick={()=>{
-                if(data.name===''){
-                    alert('these fields are required');
-                }
-
-                else{
-                    delay({
+                delay({
                     type:'add_to_info',
-                    payload:data,
-                })
+                    payload:data,})
 
-                }
                 
             }}>Confirm</Button>
         </Container>
