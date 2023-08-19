@@ -1,0 +1,2 @@
+body{background:#8e9eab;background:linear-gradient(90deg,#eef2f3,#8e9eab)}*{font-family:PT Sans,sans-serif}.first{width:60vw}.first,.second{display:flex;flex-direction:column}.second{align-items:center;gap:10px;width:40vw}.name{font-size:6vw}.heading{color:blue}p{color:gray}@media only screen and (max-width:768px){.name{font-size:8vw}.experience{font-size:10px}}
+/*# sourceMappingURL=main.1ffbf223.css.map*/
